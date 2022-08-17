@@ -5,13 +5,3 @@ eureka:
 server:
    port: 8761
 
-microservice:
-   order-service:
-      endpoints:
-         endpoint:
-            uri: http://localhost:8080/orders/bookorder
-   
-   payment-service:
-      endpoints:
-         endpoint:
-            uri: http://localhost:8081/paying/payment
